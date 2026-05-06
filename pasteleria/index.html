@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortas Kelita - Repostería Artesanal Tradicional</title>
+    <meta name="description" content="Tortas caseras inspiradas en recetas de abuela. Repostería artesanal con ingredientes frescos, tortas personalizadas para eventos especiales. Calidad y tradición en cada bocado.">
+    <meta name="keywords" content="tortas caseras, repostería artesanal, tortas abuela, pastelería tradicional, tortas personalizadas, alfajores, cupcakes">
+    <meta name="author" content="Tortas Kelita">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tortaskelita.com/">
+    <meta property="og:title" content="Tortas Kelita - La Tradición de la Abuela">
+    <meta property="og:description" content="Repostería artesanal con el sabor de hogar. Tortas caseras inspiradas en recetas tradicionales.">
+    <meta property="og:image" content="img/logo.jpeg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tortaskelita.com/">
+    <meta property="twitter:title" content="Tortas Kelita - La Tradición de la Abuela">
+    <meta property="twitter:description" content="Repostería artesanal con el sabor de hogar. Tortas caseras inspiradas en recetas tradicionales.">
+    <meta property="twitter:image" content="img/logo.jpeg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="img/logo.jpeg">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="img/logo.jpeg" alt="Tortas Kelita - Logo de repostería artesanal" loading="lazy">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio" aria-label="Ir a la sección de inicio">Inicio</a></li>
+                <li><a href="#nosotros" aria-label="Conocer nuestra historia">Nosotros</a></li>
+                <li><a href="#catalogo" aria-label="Ver nuestro catálogo de productos">Catálogo</a></li>
+                <li><a href="#pedido" aria-label="Hacer un pedido">Hacer Pedido</a></li>
+                <li><a href="#contacto" aria-label="Información de contacto">Contacto</a></li>
+            </ul>
+            <a href="#pedido" class="cta-button" aria-label="Ir al formulario de pedido">Pedir Ahora</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content fade-in-up">
+                    <h1>La Tradición de la Abuela</h1>
+                    <p>Repostería artesanal con el sabor de hogar. Cada torta cuenta una historia de amor y calidad.</p>
+                    <div class="hero-actions">
+                        <a href="#catalogo" class="cta-button" style="font-size: 1.2rem; padding: 1.2rem 2.5rem;" aria-label="Explorar el catálogo de tortas">Explorar Catálogo</a>
+                        <a href="#pedido" class="cta-button-alt" aria-label="Solicitar presupuesto especial">Presupuesto Especial</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros" class="about">
+            <div class="container">
+                <h2 class="section-title">Nuestra Historia</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Pasión por lo Artesanal</h3>
+                        <p>Nuestro emprendimiento está dedicado a la elaboración de tortas caseras inspiradas en las recetas de nuestras abuelas, donde cada preparación se realiza con dedicación, cariño y ese toque tradicional que trae recuerdos de hogar.<br><br>
+Utilizando ingredientes frescos y de calidad, cuidando cada detalle en el proceso: desde la preparación del bizcocho, esponjoso y hecho desde cero, hasta los rellenos, que pueden ser de manjar, crema, frutas naturales o chocolate, siempre equilibrando sabor y textura.<br><br>
+Cada torta es hecha de forma artesanal, sin procesos industriales, respetando los tiempos de horneado y enfriado para lograr un resultado perfecto. Además, personalizando cada pedido según el gusto del cliente, manteniendo siempre ese estilo casero que nos conecta con lo auténtico.<br><br>
+Nuestro objetivo es entregar más que una torta: una experiencia llena de sabor, tradición y recuerdos, como los que disfrutábamos en casa.</p>
+                        <div class="features">
+                            <div class="feature">
+                                <i class="fas fa-heart" aria-hidden="true"></i>
+                                <div>Hecho con Amor</div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-birthday-cake" aria-hidden="true"></i>
+                                <div>Diseños Únicos</div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-certificate" aria-hidden="true"></i>
+                                <div>Calidad Premium</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="logo-decoration" aria-hidden="true"><img src="img/sublogo.png" alt="Sublogo de Tortas Kelita"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogo" class="catalog">
+            <div class="container">
+                <h2 class="section-title">Nuestro Catálogo</h2>
+                <div id="contenedorServicios" class="catalog-grid" role="region" aria-label="Catálogo de productos">
+                    <!-- Los productos se cargan dinámicamente -->
+                </div>
+            </div>
+        </section>
+
+        <section id="pedido" class="order-section">
+            <div class="container">
+                <h2 class="section-title">Formulario de Pedido</h2>
+                <p class="section-subtitle">Completa los detalles para coordinar tu entrega</p>
+                
+                <div class="form-container fade-in-up">
+                    <form id="orderForm" action="#" method="post" aria-label="Formulario de pedido">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="nombre"><i class="fas fa-user" aria-hidden="true"></i> Nombre</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono"><i class="fas fa-phone" aria-hidden="true"></i> WhatsApp</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="Ej: +56 9 11..." required aria-required="true">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="producto"><i class="fas fa-shopping-basket" aria-hidden="true"></i> Tipo de Producto</label>
+                            <select id="producto" name="producto" required aria-required="true">
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="Torta de Catálogo">Torta de Catálogo</option>
+                                <option value="Torta Personalizada">Torta Personalizada (Diseño)</option>
+                                <option value="Caja de Alfajores">Caja de Alfajores</option>
+                                <option value="Mesa Dulce">Mesa Dulce Completa</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="porciones"><i class="fas fa-users" aria-hidden="true"></i> Porciones / Cantidad</label>
+                                <input type="number" id="porciones" name="porciones" placeholder="¿Para cuántos?" min="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="fecha"><i class="fas fa-calendar-check" aria-hidden="true"></i> Fecha de Entrega</label>
+                                <input type="date" id="fecha" name="fecha" required aria-required="true">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="detalles"><i class="fas fa-magic" aria-hidden="true"></i> Detalles Adicionales</label>
+                            <textarea id="detalles" name="detalles" rows="4" placeholder="Sabor, colores, frases de dedicatoria, etc."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary-form" aria-label="Enviar pedido por WhatsApp">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> Enviar Pedido a WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Reseñas -->
+        <section id="resenas" class="reviews-section">
+            <div class="container">
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <p class="section-subtitle">Historias dulces de quienes ya probaron Tortas Kelita</p>
+                <div class="reviews-grid" id="contenedorResenas">
+                    <!-- Las reseñas se cargan desde el JS -->
+                </div>
+
+                <!-- Botón para dejar reseña (Redirige a WhatsApp) -->
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="https://wa.me/tu_numero?text=Hola! Quería dejar un comentario sobre mi pedido..." class="cta-button-alt" aria-label="Dejar un comentario">
+                        <i class="fas fa-pen" aria-hidden="true"></i> Deja tu comentario
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="img/logo.jpeg" alt="Logo Footer" class="footer-logo" loading="lazy">
+                    <p>Endulzando tus momentos especiales con la receta de la familia.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociales</h3>
+                    <div class="social-links">
+                        <a href="https://instagram.com/tortaskelita" target="_blank" rel="noopener" aria-label="Síguenos en Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i> Instagram
+                        </a>
+                        <a href="https://wa.me/tu_numero" target="_blank" rel="noopener" aria-label="Contáctanos por WhatsApp">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Horarios</h3>
+                    <p>Lunes a Viernes</p>
+                    <p>09:00 AM - 07:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Tortas Kelita. "La tradición de la abuela". Todos los derechos reservados.</p>
+                    <p>&copy; 2026 Alejandro Echeverría. & brallan reyes Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
